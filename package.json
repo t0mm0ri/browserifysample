@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "browserify": "browserify public/js/main.js -o public/js/bundle.js -d -t [babelify --presets [ es2015 ] ]"
-
+    "browserify": "browserify js/script.js -o js/bundle.js -d -t [babelify --presets [ es2015 ] ]",
+    "watchify": "watchify js/script.js -o js/bundle.js -d -t [babelify --presets [ es2015 ] ] -v"
   },
   "repository": {
     "type": "git",
