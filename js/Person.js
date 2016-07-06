@@ -12,4 +12,4 @@ class Person {
 
 }
 
-module.exports = Person;
+export default Person;
