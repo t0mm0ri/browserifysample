@@ -1,0 +1,25 @@
+{
+  "name": "browserifysample",
+  "version": "1.0.0",
+  "description": "browserify sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t0mm0ri/browserifysample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/t0mm0ri/browserifysample/issues"
+  },
+  "homepage": "https://github.com/t0mm0ri/browserifysample#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.0.1"
+  }
+}
